@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deni</title>
+<meta name="description" content="Deni: pill reminders and a mood journal for iPhone. Everything stays on your iPhone.">
+<style>
+:root{--ink:#141B2D;--soft:#4A5470;--card:rgba(255,255,255,.86);--line:rgba(20,27,45,.1);--link:#2F6BF2;
+  --sky:radial-gradient(70% 34% at 12% 22%,rgba(255,206,160,.5) 0%,rgba(255,206,160,0) 70%),linear-gradient(180deg,#273B8C 0%,#4E5FB3 18%,#8C86C6 42%,#D3A2BC 66%,#F6C7A6 100%)}
+@media (prefers-color-scheme:dark){:root{--ink:#F2F4FA;--soft:#B8BFD3;--card:rgba(16,22,48,.78);--line:rgba(255,255,255,.12);--link:#8DB2FF;
+  --sky:radial-gradient(60% 30% at 80% 10%,rgba(180,200,255,.22) 0%,rgba(180,200,255,0) 70%),linear-gradient(180deg,#05081A 0%,#0D1538 55%,#1C2A5E 100%)}}
+*{box-sizing:border-box}
+html{background:#273B8C}
+body{margin:0;min-height:100vh;background:var(--sky) fixed;color:var(--ink);
+  font:17px/1.55 -apple-system,"SF Pro Text",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:680px;margin:0 auto;padding:56px 16px 64px}
+.top{display:flex;align-items:center;gap:12px;color:#fff;margin:0 4px 22px}
+.top img{width:44px;height:44px;border-radius:10px;box-shadow:0 6px 14px -6px rgba(0,0,30,.5)}
+.top b{font-size:22px;letter-spacing:-.2px}.top span{opacity:.75;font-size:15px;margin-left:auto}
+article{background:var(--card);-webkit-backdrop-filter:blur(24px);backdrop-filter:blur(24px);border-radius:26px;
+  padding:30px 26px;box-shadow:0 30px 60px -30px rgba(6,12,40,.45)}
+h1{font-size:32px;line-height:1.15;letter-spacing:-.4px;margin:0 0 6px}
+.date{color:var(--soft);font-size:15px;margin:0 0 22px}
+h2{font-size:19px;margin:26px 0 6px}
+p,li{color:var(--ink)}ul{padding-left:20px}li{margin:4px 0}
+.lead{font-size:19px;font-weight:600}
+a{color:var(--link)}
+footer{color:rgba(255,255,255,.8);text-align:center;font-size:14px;margin-top:22px}
+footer a{color:#fff}
+</style>
+</head>
+<body>
+<main>
+<article style="text-align:center;padding:40px 26px">
+<img src="icon.png" alt="" style="width:96px;height:96px;border-radius:22px;box-shadow:0 14px 28px -12px rgba(0,0,30,.45)">
+<h1 style="margin-top:18px">Deni</h1>
+<p class="lead">Pill reminders and a mood journal for iPhone.</p>
+<p>Everything stays on your iPhone.</p>
+<p style="margin-top:22px"><a href="privacy/">Privacy policy</a> &nbsp;·&nbsp; <a href="support/">Support</a></p>
+</article>
+</main>
+</body>
+</html>
